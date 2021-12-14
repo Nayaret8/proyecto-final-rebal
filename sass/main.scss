@@ -1,35 +1,15 @@
+
+@import "base/variables";
+@import "componentes/header";
+@import "componentes/footer";
+@import "componentes/body";
+@import "componentes/h1";
+
 *{
     margin: 0%;
     padding: 0%;
 }
 
-body{
-    background-color:  #1D495C;
-}
-header{
-    background-image: url(herramientas.jpg);
-    position: relative;
-
-}
-
-h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 700;
-    font-size: 100px;
-    font-style: italic;
-    color: #496875;
-    
-
-}
-
-h1:hover {
-    transition: all 0.5s;
-    transform: scale(1.3);
-    transform: skew(1.2);
-
-}
 
 .logoPrincipal {
     position: absolute;
@@ -98,10 +78,6 @@ h2 {
     text-decoration: none;
 }
     
-footer {
-    padding-top: 150px;
-    background-color: #C97928
-}
 
 .nosotros{
     display: flex;
@@ -117,7 +93,7 @@ a {
 }
 
 .tablaProducto{
-    padding: 70px 70px;
+    padding: 70px 0px;
 }
 
 .mapa {
@@ -136,7 +112,7 @@ a {
 }
 
 .carrusel_width{
-    width: 800px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
